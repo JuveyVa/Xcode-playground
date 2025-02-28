@@ -9,6 +9,7 @@ class TemperatureConverterViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "Temperature converter"
     }
 
     @IBAction func calculate(_ sender: Any) {
